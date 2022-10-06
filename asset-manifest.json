@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/myteam-design/static/css/main.7f22fe94.css",
+    "main.js": "/myteam-design/static/js/main.20ee7c00.js",
+    "static/media/Livvic-Bold.ttf": "/myteam-design/static/media/Livvic-Bold.089af19ac41ce144a96c.ttf",
+    "static/media/Livvic-SemiBold.ttf": "/myteam-design/static/media/Livvic-SemiBold.c79c53d29c413ab69adb.ttf",
+    "static/media/avatar-kady.jpg": "/myteam-design/static/media/avatar-kady.78fc482c1b331d912ca1.jpg",
+    "static/media/avatar-arthur.jpg": "/myteam-design/static/media/avatar-arthur.098c2e26b1c3fa071061.jpg",
+    "static/media/avatar-aiysha.jpg": "/myteam-design/static/media/avatar-aiysha.e119a0c1a5a4d6a6d0bb.jpg",
+    "static/media/icon-person.svg": "/myteam-design/static/media/icon-person.0a313a85e4148d7ea17f5657dbbffa33.svg",
+    "static/media/icon-cog.svg": "/myteam-design/static/media/icon-cog.c5d2403fc5d7754badaf2da8c88d8b35.svg",
+    "static/media/icon-chart.svg": "/myteam-design/static/media/icon-chart.8de3d4d2ce95686ba9409a82599a8de1.svg",
+    "static/media/bg-pattern-home-3.svg": "/myteam-design/static/media/bg-pattern-home-3.4bc172f902aa8a5308451cd91cce9f8a.svg",
+    "index.html": "/myteam-design/index.html",
+    "static/media/icon-quotes.svg": "/myteam-design/static/media/icon-quotes.c51739212c310345577396beac77ec6a.svg",
+    "static/media/icon-pinterest.svg": "/myteam-design/static/media/icon-pinterest.a2d25ab4c70b78c4028f25323009cc58.svg",
+    "static/media/bg-pattern-home-2.svg": "/myteam-design/static/media/bg-pattern-home-2.889d5d8c448ed043a71bd7e91e884388.svg",
+    "static/media/icon-twitter.svg": "/myteam-design/static/media/icon-twitter.1d5c6d5e6ab1717a500af2df0a87959a.svg",
+    "static/media/icon-facebook.svg": "/myteam-design/static/media/icon-facebook.229c75a01827343aef31ae916e2ec18a.svg",
+    "main.7f22fe94.css.map": "/myteam-design/static/css/main.7f22fe94.css.map",
+    "main.20ee7c00.js.map": "/myteam-design/static/js/main.20ee7c00.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f22fe94.css",
+    "static/js/main.20ee7c00.js"
+  ]
+}
