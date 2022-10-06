@@ -1,0 +1,35 @@
+.first-footer {
+    width: 1440px;
+    height: 200px;
+    background-color: #f67e7e;
+    padding: 76px 260px;
+    color: #012f34;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    & * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .side-svg-container {
+        height: 156px;
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    h2 {
+        font-size: 48px;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 48px;
+    }
+
+    .contact-us-btn {
+        color: #012f34;
+        border-color: #012f34;
+    }
+}

@@ -1,0 +1,102 @@
+.mask-1 {
+    max-width: 1440px;
+    padding: 0 165px;
+    height: 700px;
+    background-color: #014e56;
+    position: relative;
+
+    .main-app-header {
+        height: 117px;
+        display: flex;
+        align-items: flex-end;
+        max-width: 100%;
+        box-sizing: border-box;
+
+        & * {
+            margin: 0;
+        }
+
+        .btns-container {
+            display: flex;
+            flex: 1;
+            justify-content: space-between;
+
+            .contact-us-btn {
+                position: relative;
+                bottom: -8px;
+                color: #ffffff;
+                border: 2px solid #ffffff;
+            }
+
+            .nav-btns-container {
+                display: flex;
+                margin-left: 80px;
+                gap: 40px;
+                align-items: flex-end;
+
+                h5 {
+                    font-size: 18px;
+                    font-weight: 600;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: 36px;
+                    font-family: "livvic-semi";
+                }
+            }
+        }
+
+        h1 {
+            font-size: 46px;
+            height: 40px;
+            line-height: 27px;
+
+        }
+
+    }
+
+    .middle-section {
+        margin-top: 133px;
+        height: 200px;
+        display: flex;
+
+        .big-txt-container {
+            flex-basis: 60%;
+            max-width: 635px;
+            height: 201px;
+            font-size: 100px;
+            font-weight: 700;
+            line-height: 100px;
+            text-align: left;
+
+            span.pink {
+                color: #f67e7e;
+            }
+        }
+
+        .small-txt-container {
+            font-family: "livvic-semi";
+            position: relative;
+            flex-basis: 40%;
+            display: flex;
+            align-items: flex-end;
+            padding-bottom: 10px;
+            width: 445px;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 28px;
+            text-align: left;
+
+            .rectangle.blue {
+                top: 0;
+                background-color: #79c8c7;
+            }
+
+        }
+    }
+
+    .svg-container {
+        position: absolute;
+        bottom: 0;
+        right: 160px;
+    }
+}

@@ -1,0 +1,85 @@
+.mask-3 {
+    padding: 0 165px;
+    max-width: 1440px;
+    height: 745px;
+    background-color: #004047;
+    display: flex;
+    flex-direction: column;
+
+    & * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .mask-headline {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: center;
+        margin-top: 140px;
+        margin-bottom: 88px;
+        padding: 0 95px;
+
+        span.blue {
+            color: #79c8c7;
+        }
+    }
+
+    .avatars-container {
+        display: flex;
+        gap: 30px;
+
+
+        .avatar-container {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 350px;
+
+            .svg-container {
+                position: absolute;
+                top: -37px;
+            }
+
+            .info-container {
+                font-family: "livvic-semi";
+                font-size: 15px;
+                font-weight: 600;
+                line-height: 25px;
+                text-align: center;
+                margin-bottom: 30px;
+                opacity: 0.8;
+            }
+
+            .name-container {
+                color: #79c8c7;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 28px;
+            }
+
+            .title-container {
+                opacity: 0.8;
+                font-size: 13px;
+                font-weight: 500;
+                line-height: 18px;
+                margin-bottom: 30px;
+            }
+
+            .avatar-img-container {
+                width: 62px;
+                height: 62px;
+                border: 2px solid #c4fffe;
+                border-radius: 50%;
+
+                img {
+                    width: 100%;
+                    object-fit: contain;
+                    border-radius: 50%;
+                }
+
+            }
+        }
+    }
+}

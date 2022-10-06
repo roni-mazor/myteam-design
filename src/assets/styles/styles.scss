@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "livvic";
+    src: url("../fonts/Livvic-Bold.ttf");
+}
+@font-face {
+    font-family: "livvic-semi";
+    src: url("../fonts/Livvic-SemiBold.ttf");
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    color: #ffffff;
+    font-family: "livvic";
+
+    & * {
+        box-sizing: border-box;
+
+    }
+}
+
+@import './cmps/mask-1';
+@import './cmps/_mask-2.scss';
+@import './cmps/_mask-3.scss';
+@import './cmps/_first-footer.scss';
+@import './cmps/_main-footer.scss';
+
+
+
+
+
+
+.rectangle {
+    width: 50px;
+    position: absolute;
+    height: 4px;
+}
+
+.contact-us-btn {
+    width: 88px;
+    font-family: "livvic-semi";
+    height: 28px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+    width: 153px;
+    height: 48px;
+    border-radius: 24px;
+    // color: #ffffff;
+    // border: 2px solid #ffffff;
+    background-color: transparent;
+    cursor: pointer;
+}
